@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/logo.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#FFFFFF"
     },
@@ -17,14 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.reactnative"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "io.expo.client"
+      "package": "dev.reactnative" 
     },
     "web": {
       "favicon": "./assets/logo.png"
