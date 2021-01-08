@@ -7,7 +7,7 @@ export default function App() {
   const INJECTEDJAVASCRIPT = 'const meta = document.createElement(\'meta\'); meta.setAttribute(\'content\', \'width=device-width, initial-scale=1, maximum-scale=0.99, user-scalable=0\'); meta.setAttribute(\'name\', \'viewport\'); document.getElementsByTagName(\'head\')[0].appendChild(meta); '
   const [error, setError] = useState(false);
   const [loaded, setLoad] = useState(false);
-  const URL = "http://192.168.4.1";
+  const URL = "http://192.168.4.1/engine.htm";
   if (error) {
     let interval = setInterval(async () => {
       console.log('try');
